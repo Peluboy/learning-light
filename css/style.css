@@ -190,4 +190,12 @@ nav .navbar .close__btn {
     overflow-y: scroll;
     padding-right: 0;
   }
+
+  .grid-item-1 .time-stamp {
+    width: 25% !important;
+  }
+
+  .grid-item-1_1 .time-stamp {
+    width: 20% !important;
+  }
 }
