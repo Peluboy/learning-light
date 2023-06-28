@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@200;300;400;500;600&display=swap");
+@font-face {
+  font-family: "RF Dewi";
+  src: local("RF Dewi Expanded Regular"),
+    url(../assets/RFDewiExpanded-Regular.ttf) format("truetype");
+  font-weight: 400;
+}
+
+:root {
+  --color-primary: #535adf;
+  --color-secondary: #eff0ff;
+  --color-tertiary: #f6f7ff;
+  --text-color: #62527d;
+  --color-info-dark: #dce1eb;
+  --border-color: #f1f1f1;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  scroll-behavior: smooth;
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1 {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "RF Dewi", sans-serif;
+}
+
+h3 {
+  font-size: 0.87rem;
+  font-weight: 400;
+  color: var(--text-color);
+}
+
+h4 {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+
+small {
+  font-size: 0.7rem;
+  font-weight: 400;
+}
+
+p {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--text-color);
+}
+
+.profile__photo {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.text__muted {
+  color: var(--color-info-dark);
+}
+
+.primary {
+  color: var(--color-primary);
+}
+
+.secondary {
+  color: var(--color-secondary);
+}
+
+.tertiary {
+  color: var(--color-tertiary);
+}
+
+.container {
+  display: grid;
+  /* width: 96%; */
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  gap: 1.8rem;
+  /* background-color: #dce1eb; */
+  grid-template-columns: 14rem auto 23rem;
+}
+
+.buttons {
+  display: flex;
+  width: 75vw;
+  justify-content: space-between;
+  padding-top: 3rem;
+  /* /* padding-left: 1rem; */
+}
+
+.buttons .button__groups button {
+  background-color: var(--color-tertiary);
+  border: none;
+  padding: 0.3rem 0.85rem;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  color: var(--text-color);
+  font-size: 12px;
+  transition: all 200ms ease-in;
+}
+
+.buttons .button__groups button.active {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.buttons .button__groups button:hover {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+nav {
+  display: flex;
+  padding: 0.8rem 2rem;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #dce1eb;
+}
+
+nav .navbar .close__btn {
+  display: none;
+}
+
+.main__container {
+  padding-left: 1rem;
+}
+
+/* .sidebar__container {
+  display: grid;
+  grid-template-columns: 14rem auto 23rem;
+} */

@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+.notification__profile {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profile-pic {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.search__bar {
+  display: flex;
+  align-items: center;
+  padding: 0.3rem 0.7rem;
+  width: 500px;
+  gap: 0.5rem;
+  border-radius: 6px;
+  background-color: var(--color-tertiary);
+}
+
+.search__bar input {
+  border: none;
+  width: 100%;
+  outline: none;
+  background-color: inherit;
+  height: 100%;
+}
+
+.search__bar span {
+  color: #b0b4d7;
+  font-size: 1.2rem;
+}
