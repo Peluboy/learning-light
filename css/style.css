@@ -150,11 +150,41 @@ nav .navbar .close__btn {
   display: none;
 }
 
+.navbar-left {
+  display: flex;
+  gap: 4rem;
+}
+
 .main__container {
   padding-left: 1rem;
 }
 
-/* .sidebar__container {
-  display: grid;
-  grid-template-columns: 14rem auto 23rem;
-} */
+@media (max-width: 767px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .buttons {
+    display: flex;
+    gap: 2;
+    width: 95%;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+  }
+
+  .buttons .button__groups {
+    padding-bottom: 1rem;
+  }
+
+  .search__bar {
+    display: none !important;
+  }
+
+  .profile-pic p {
+    display: none;
+  }
+
+  .main__container {
+    overflow-y: scroll;
+  }
+}
