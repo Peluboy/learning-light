@@ -105,7 +105,7 @@ p {
   margin: 0 auto;
   gap: 1.8rem;
   /* background-color: #dce1eb; */
-  grid-template-columns: 14rem auto 23rem;
+  grid-template-columns: 14rem auto;
 }
 
 .buttons {
@@ -157,6 +157,8 @@ nav .navbar .close__btn {
 
 .main__container {
   padding-left: 1rem;
+  overflow-y: auto;
+  padding-right: 2rem;
 }
 
 @media (max-width: 767px) {
@@ -186,5 +188,6 @@ nav .navbar .close__btn {
 
   .main__container {
     overflow-y: scroll;
+    padding-right: 0;
   }
 }
