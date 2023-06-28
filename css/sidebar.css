@@ -191,7 +191,7 @@ aside .navbar .close__btn {
 
 @media (max-width: 767px) {
   .sidebar {
-    display: none; /* Hide the sidebar by default */
+    display: none;
   }
 
   .sidebar-toggle {
@@ -199,8 +199,6 @@ aside .navbar .close__btn {
     align-items: center;
     justify-content: center;
     position: relative;
-    /* top: 1rem; */
-    /* left: 1rem; */
     width: 2.5rem;
     height: 2.5rem;
     background-color: var(--color-light);
