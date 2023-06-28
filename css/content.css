@@ -69,6 +69,7 @@
   background-color: var(--color-secondary);
   padding: 1.3rem;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .grid-bottom {
@@ -190,6 +191,7 @@
   background-color: var(--color-secondary);
   padding: 0.5rem;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .time-stamp span {
